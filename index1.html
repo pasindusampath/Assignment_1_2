@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body>div{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background-color: transparent;
+            border-radius: 50%;
+
+        }
+        #b1{
+            border: 15px solid red;
+            height:300px;
+            width: 300px;
+        }
+        #b2{
+            border: 15px solid #343434;
+            height:325px;
+            width: 325px;
+        }
+        section{
+            position: relative;
+            left: -1vw;
+            width: 100vw;
+            height: 100vh;
+        }
+        section>div{
+            position: absolute;
+            height:320px;
+            width: 320px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border-radius: 50%;
+        }
+        #first{
+            background-color: aqua;
+        }
+        #second{
+            background-color: #a6ea58;
+        }
+
+    </style>
+</head>
+<body>
+
+<section>
+    <div id="first">
+
+    </div>
+</section>
+<section>
+    <div id="second">
+
+    </div>
+</section>
+<div id="b1">
+
+</div>
+<div id="b2">
+
+</div>
+</body>
+</html>
